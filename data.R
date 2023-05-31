@@ -24,5 +24,5 @@ summary_catch <-
   rename(Year = year, "1st half" = "1", "2nd half" = "2") %>%
   mutate(Total = `1st half` + `2nd half`)
 
-# save
+# save > create a file with the same name than the object
 write.taf(summary_catch, dir = "data")

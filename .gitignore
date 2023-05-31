@@ -6,6 +6,7 @@
 *.Rproj
 
 # taf stuff to ignore
+/bootstrap/initial/
 /bootstrap/data/
 /bootstrap/config/
 /bootstrap/library/
